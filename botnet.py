@@ -31,7 +31,7 @@ def menu():
 Welcome To The SSH Botnet!
 Options:
 
-1. Add Bots
+1. Add Bot
 2. Control your existing bots
 
 Enter the number of the chosen option
@@ -39,6 +39,15 @@ Enter the number of the chosen option
 menu()
 option = raw_input(">> ")
 if option == "1":
+	print """
+[Note]
+
+If you want to add MULTIPLE Bots to your botnet,
+You will need to edit this file and add a line like this for EVERY new bot at the bottom:
+
+add_bots(BOTS_IP_HERE, BOTS_USERNAME_HERE_ BOTS_PASSWORD_HERE)
+
+"""
 	ip = raw_input("Bot IP: ")
 	uname = raw_input("Bot Username: ")
 	passw = raw_input("Bot's SSH Login Password: ")
