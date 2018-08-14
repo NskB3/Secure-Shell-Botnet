@@ -45,7 +45,7 @@ if option == "1":
 If you want to add MULTIPLE Bots to your botnet,
 You will need to edit this file and add a line like this for EVERY new bot at the bottom:
 
-add_bots(BOTS_IP_HERE, BOTS_USERNAME_HERE_ BOTS_PASSWORD_HERE)
+add_bot(BOTS_IP_HERE, BOTS_USERNAME_HERE_ BOTS_PASSWORD_HERE)
 
 """
 	ip = raw_input("Bot IP: ")
