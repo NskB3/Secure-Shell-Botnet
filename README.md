@@ -1,2 +1,2 @@
 # Secure-Shell-Botnet
-A Python SSH Botnet (WORK-IN-PRORESS)
+A Python SSH Botnet 
